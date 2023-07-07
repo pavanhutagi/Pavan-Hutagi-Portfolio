@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="w-full h-20"></div>
+      <section className="w-full h-96 bg-gray-900"></section>
+      <section className="w-full h-96 bg-gray-700"></section>
+      <section className="w-full h-96 bg-gray-300"></section>
+      <section className="w-full h-96 bg-gray-600"></section>
       <Footer />
     </>
   );
