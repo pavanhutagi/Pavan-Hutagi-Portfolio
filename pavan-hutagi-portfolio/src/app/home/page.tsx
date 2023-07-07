@@ -10,7 +10,7 @@ export default function Home() {
 
       <section
         style={{ height: "1000px" }}
-        className="w-full bg-gray-900"
+        className="w-full bg-gray-500"
       ></section>
 
       <section
