@@ -19,7 +19,7 @@ export default function Home() {
       <NavBar />
 
       <section>
-        <div>Hi, I'm Pavan Hutagi</div>
+        <div>Hi, I&apos;m Pavan Hutagi</div>
         <div>
           <Particles
             id="tsparticles"
