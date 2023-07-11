@@ -18,15 +18,16 @@ export default function Home() {
     <>
       <NavBar />
 
-      <section
-        style={{ height: "1000px" }}
-        className="w-full bg-portfolioBackground"
-      >
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          options={particlesConfig}
-        />
+      <section>
+        <div>Hi, I'm Pavan Hutagi</div>
+        <div>
+          <Particles
+            id="tsparticles"
+            init={particlesInit}
+            options={particlesConfig}
+            className="w-full h-screen bg-portfolioBackground"
+          />
+        </div>
       </section>
 
       <section
