@@ -1,11 +1,11 @@
 "use client";
 
+import particlesConfigJson from "@/configs/particlesjs-config.json";
 import NavBar from "@/components/nav-bar/nav-bar";
 import Footer from "@/components/footer/footer";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
-import particlesConfigJson from "@/configs/particlesjs-config.json";
 
 export default function Home() {
   const particlesInit = async (main: Engine) => {

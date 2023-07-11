@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="w-full h-32 bg-portfolioPrimary">
         <Container className="h-full flex flex-row  text-white text-xl align-middle">
           <div className="m-auto flex justify-center">
-            <Link href="/" className="hover:text-portfolioHighlight">
+            <Link href="/" className="hover:text-portfolioHighlight text-base">
               PAVAN HUTAGI
             </Link>
           </div>
