@@ -10,22 +10,7 @@ export default function Contact() {
 
       <section
         style={{ height: "1000px" }}
-        className="w-full bg-blue-900"
-      ></section>
-
-      <section
-        style={{ height: "1000px" }}
-        className="w-full h-96 bg-gray-700"
-      ></section>
-
-      <section
-        style={{ height: "1000px" }}
-        className="w-full h-96 bg-gray-300"
-      ></section>
-
-      <section
-        style={{ height: "1000px" }}
-        className="w-full h-96 bg-gray-600"
+        className="w-full bg-portfolioBackground"
       ></section>
 
       <Footer />

@@ -1,9 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
-import { Inter } from "next/font/google";
+import { Zen_Dots } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Zen_Dots({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata = {
   title: "Pavan Hutagi",
