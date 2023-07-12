@@ -6,6 +6,7 @@ import Footer from "@/components/footer/footer";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
+import { Container } from "react-bootstrap";
 
 export default function Home() {
   const particlesInit = async (main: Engine) => {
@@ -19,15 +20,12 @@ export default function Home() {
       <NavBar />
 
       <section>
-        <div>Hi, I&apos;m Pavan Hutagi</div>
-        <div>
-          <Particles
-            id="tsparticles"
-            init={particlesInit}
-            options={particlesConfig}
-            className="w-full h-screen bg-portfolioBackground"
-          />
-        </div>
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          options={particlesConfig}
+          className="w-full h-screen"
+        />
       </section>
 
       <section
