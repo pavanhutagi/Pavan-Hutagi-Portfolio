@@ -14,7 +14,7 @@ export default function NavBar() {
       <div className="w-full h-20 bg-portfolioPrimary fixed drop-shadow">
         <Container className="h-full flex flex-row text-white text-xl align-middle">
           <Link href="/" className="m-auto">
-            <Image src="/images/avatar.png" alt="" width={50} height={50} />
+            <Image src="/images/Avatar.png" alt="" width={50} height={50} />
           </Link>
 
           <div className="m-auto flex-1">
