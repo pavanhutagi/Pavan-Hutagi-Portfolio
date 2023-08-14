@@ -7,18 +7,16 @@ import Footer from "@/components/footer/footer";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
-import { Container } from "react-bootstrap";
-import pavanhutagiSVG from "./smalldeer.svg";
+import { loadPolygonMaskPlugin } from "tsparticles-plugin-polygon-mask";
 
 export default function Home() {
   const particlesInit = async (main: Engine) => {
     await loadFull(main);
+    await loadPolygonMaskPlugin(main);
   };
 
   let particlesConfig1 = JSON.parse(JSON.stringify(particles1ConfigJson));
   let particlesConfig2 = JSON.parse(JSON.stringify(particles2ConfigJson));
-
-  particlesConfig2.polygon.url = pavanhutagiSVG;
 
   return (
     <>
