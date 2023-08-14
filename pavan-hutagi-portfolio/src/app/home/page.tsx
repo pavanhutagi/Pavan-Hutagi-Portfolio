@@ -36,14 +36,10 @@ export default function Home() {
         className="w-full h-96 bg-portfolioSecondary"
       ></section>
 
-      <section>
-        <Particles
-          id="tsparticles2"
-          init={particlesInit}
-          options={particlesConfig2}
-          className="w-full h-screen"
-        />
-      </section>
+      <section
+        style={{ height: "1000px" }}
+        className="w-full h-96 bg-portfolioPrimary"
+      ></section>
 
       <section
         style={{ height: "1000px" }}
