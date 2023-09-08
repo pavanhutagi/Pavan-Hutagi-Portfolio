@@ -4,6 +4,7 @@ import particlesConfigJson from "@/configs/particles-config.json";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
+import Image from "next/image";
 import Typewriter from "typewriter-effect";
 
 import "./style.css";
@@ -25,6 +26,7 @@ export default function Home() {
       />
 
       <div className="overlay">
+        <Image src="/images/Avatar.png" alt="logo" width={100} height={100} />
         <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString("Portfolio in the making.").start();
