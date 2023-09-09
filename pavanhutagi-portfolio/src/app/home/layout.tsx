@@ -1,6 +1,6 @@
 import { Oxanium } from "next/font/google";
 
-const oxanium = Oxanium({});
+const oxanium = Oxanium({ subsets: ["latin"], weight: "400" });
 
 export default function RootLayout({
   children,
