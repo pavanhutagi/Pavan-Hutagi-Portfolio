@@ -1,5 +1,10 @@
 {
   "fullScreen": { "enable": false },
+  "background": {
+    "color": {
+      "value": "#000000"
+    }
+  },
   "particles": {
     "number": {
       "value": 80,
@@ -9,13 +14,13 @@
       }
     },
     "color": {
-      "value": "#3d3d3d"
+      "value": "#7A7A7A"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#7A7A7A"
       },
       "polygon": {
         "nb_sides": 5
@@ -45,7 +50,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#3d3d3d",
+      "color": "#7A7A7A",
       "opacity": 0.5,
       "width": 1.5
     },

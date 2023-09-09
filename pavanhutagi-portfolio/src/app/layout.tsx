@@ -1,9 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
-import { Zen_Dots } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const inter = Zen_Dots({
+const inter = Inter({
   subsets: ["latin"],
   weight: "400",
 });
