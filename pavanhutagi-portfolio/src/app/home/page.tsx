@@ -24,14 +24,25 @@ export default function Home() {
         options={particlesConfig}
         className="particles"
       />
-
       <div className="overlay">
-        <Image src="/images/Avatar.png" alt="logo" width={100} height={100} />
-        <Typewriter
+        {/* <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString("Portfolio in the making.").start();
           }}
-        />
+        /> */}
+
+        {/* <Image src="/images/avatar.png" alt="avatar" width={70} height={70} />
+        <br />
+        <p>
+          Be Right Back! <br />
+          Currently time-traveling to the future <br />
+          to bring back a finished portfolio.
+        </p>
+        <br />
+        <p>
+          Meanwhile, you can reach out to me <br />
+          at <b>pavanhutagi@gmail.com</b>
+        </p> */}
       </div>
     </>
   );
