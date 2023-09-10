@@ -11,7 +11,7 @@ export default function Card() {
   }, []);
 
   function atvImg() {
-    var d = document,
+    var d = _document,
       de = d.documentElement,
       bd = d.getElementsByTagName("body")[0],
       htm = d.getElementsByTagName("html")[0],
@@ -182,7 +182,9 @@ export default function Card() {
     }
   }
 
-  atvImg();
+  if (_document != null) {
+    atvImg();
+  }
 
   return (
     <>
