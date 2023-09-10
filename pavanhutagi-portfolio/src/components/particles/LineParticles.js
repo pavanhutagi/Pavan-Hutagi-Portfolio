@@ -3,7 +3,6 @@ import "./LineParticles.css";
 import particlesConfigJson from "@/configs/particles-config.json";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Engine } from "tsparticles-engine";
 
 export default function LineParticles() {
   const particlesInit = async (main) => {
