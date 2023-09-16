@@ -189,17 +189,6 @@ export default function Card() {
 
   return (
     <>
-      {/* <div class="cover atvImg">
-        <div
-          className="atvImg-layer"
-          data-img="http://robindelaporte.fr/codepen/visa-bg-2.jpg"
-        ></div>
-        <div
-          className="atvImg-layer"
-          data-img="http://robindelaporte.fr/codepen/visa.png"
-        ></div>
-      </div> */}
-
       <div className="cover atvImg">
         <div className="atvImg-layer" data-img="/images/Planet.png"></div>
       </div>
