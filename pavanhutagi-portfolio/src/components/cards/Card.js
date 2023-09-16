@@ -1,6 +1,7 @@
 "use client";
 
 import "./Card.css";
+import Image from "next/image";
 import React from "react";
 
 export default function Card() {
@@ -139,7 +140,7 @@ export default function Card() {
       elem.firstChild.style.transform = imgCSS;
 
       shine.style.background =
-        "linear-gradient(" +
+        "radial-gradient(" +
         angle +
         "deg, rgba(255,255,255," +
         ((pageY - offsets.top - bdst) / h) * 0.4 +
@@ -188,15 +189,19 @@ export default function Card() {
 
   return (
     <>
-      <div class="cover atvImg">
+      {/* <div class="cover atvImg">
         <div
-          class="atvImg-layer"
+          className="atvImg-layer"
           data-img="http://robindelaporte.fr/codepen/visa-bg-2.jpg"
         ></div>
         <div
-          class="atvImg-layer"
-          // data-img="http://robindelaporte.fr/codepen/visa.png"
+          className="atvImg-layer"
+          data-img="http://robindelaporte.fr/codepen/visa.png"
         ></div>
+      </div> */}
+
+      <div className="cover atvImg">
+        <div className="atvImg-layer" data-img="/images/Planet.png"></div>
       </div>
     </>
   );
