@@ -1,9 +1,5 @@
-import Home from "./home/page";
+import "./styles.css";
 
-export default function HomeContainer() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+export default function Root() {
+  return <></>;
 }

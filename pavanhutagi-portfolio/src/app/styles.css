@@ -1,0 +1,52 @@
+.root-background {
+  height: 100vh;
+  background-color: #3d3d3d;
+  padding: 50px;
+}
+
+.root-container {
+  border: solid 1px white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  border: solid 1px red;
+  flex: 80%;
+}
+
+.side-bar {
+  border: solid 1px blue;
+  flex: 20%;
+}
+
+.side-bar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.theme-toggle {
+  height: 50px;
+  border: solid 1px rgb(68, 201, 218);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.nav {
+  flex-grow: 1;
+  border: solid 1px rgb(201, 183, 77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  height: 50px;
+  border: solid 1px rgb(58, 144, 29);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
