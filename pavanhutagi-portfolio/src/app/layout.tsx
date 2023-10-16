@@ -1,9 +1,13 @@
 import "./globals.css";
+import "./style.css";
 
-import { Inter } from "next/font/google";
-import Image from "next/image";
+import ThemeToggle from "@/components/theme-toggle/theme-toggle";
+import Social from "@/components/social/social";
+import Navigation from "@/components/navigation/navigation";
 
-const inter = Inter({
+import { Oxanium } from "next/font/google";
+
+const oxanium = Oxanium({
   subsets: ["latin"],
   weight: "400",
 });
@@ -20,66 +24,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} root-background`}>
+      <body className={`${oxanium.className} root-background`}>
         <main className="root-container">
           <section className="content">{children}</section>
-
           <section className="side-bar">
             <div className="side-bar-container">
               <div className="theme-toggle">
-                <div className="light-mode">
-                  <Image
-                    src="/images/light-mode.png"
-                    width={50}
-                    height={50}
-                    alt="Instagram"
-                  />
-                </div>
+                <ThemeToggle />
               </div>
-
-              <div className="nav"></div>
-
+              <div className="nav">
+                <Navigation />
+              </div>
               <div className="social">
-                <div className="instagram">
-                  <a
-                    href="https://www.instagram.com/pavan_hutagi/"
-                    target="_blank"
-                  >
-                    <Image
-                      src="/images/instagram.png"
-                      width={50}
-                      height={50}
-                      alt="Instagram"
-                      style={{ marginRight: "20px" }}
-                    />
-                  </a>
-                </div>
-
-                <div className="linkedin">
-                  <a
-                    href="https://www.linkedin.com/in/pavan-hutagi/"
-                    target="_blank"
-                  >
-                    <Image
-                      src="/images/linkedin.png"
-                      width={50}
-                      height={50}
-                      alt="LinkedIn"
-                      style={{ marginRight: "20px" }}
-                    />
-                  </a>
-                </div>
-
-                <div className="github">
-                  <a href="https://www.github.com/pavanhutagi" target="_blank">
-                    <Image
-                      src="/images/github.png"
-                      width={50}
-                      height={50}
-                      alt="GitHub"
-                    />
-                  </a>
-                </div>
+                <Social />
               </div>
             </div>
           </section>
