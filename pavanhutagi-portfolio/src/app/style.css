@@ -5,20 +5,17 @@
 }
 
 .root-container {
-  /* border: solid 2px white; */
   height: 100%;
   width: 100%;
   display: flex;
 }
 
 .content {
-  /* border: solid 2px red; */
   flex: 80%;
   overflow-y: auto;
 }
 
 .side-bar {
-  /* border: solid 2px blue; */
   flex: 20%;
 }
 
@@ -30,7 +27,6 @@
 
 .theme-toggle {
   height: 50px;
-  /* border: solid 2px rgb(68, 201, 218); */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -38,7 +34,6 @@
 
 .nav {
   flex-grow: 1;
-  /* border: solid 2px rgb(201, 183, 77); */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -46,7 +41,6 @@
 
 .social {
   height: 50px;
-  /* border: solid 2px rgb(58, 144, 29); */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

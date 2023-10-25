@@ -3,7 +3,7 @@ import "./style.css";
 export default function Home() {
   return (
     <>
-      <div className="home">
+      <div className="home-container">
         <div className="wireframes-mock">
           <div className="box-1"></div>
           <div className="box-2"></div>
