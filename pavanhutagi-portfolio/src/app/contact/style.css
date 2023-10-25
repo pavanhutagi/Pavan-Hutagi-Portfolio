@@ -5,36 +5,42 @@
 }
 
 .title-container {
-  height: 200px;
   color: white;
-  font-size: 35px;
+  font-size: 25pt;
+  margin-bottom: 50px;
+  border: solid 2px red;
 }
 
 .form-container {
   flex-grow: 1;
+  border: solid 2px rgb(246, 255, 0);
 }
 
 label {
   color: white;
-  font-size: 25px;
+  font-size: 15pt;
 }
 
 input {
   height: 50px;
   width: 100%;
   background-color: #d9d9d9;
+  font-size: 25px;
+  padding: 10px;
 }
 
 textarea {
-  height: 500px;
-  width: 80%;
   background-color: #d9d9d9;
+  font-size: 25px;
+  padding: 10px;
+  overflow-y: scroll;
 }
 
 .text-input-container {
   display: flex;
   gap: 30px;
-  width: 80%;
+  width: 70%;
+  border: solid 2px rgb(0, 170, 255);
 }
 
 .name {
@@ -46,11 +52,15 @@ textarea {
 }
 
 .text-area-container {
-  margin-top: 20px;
+  margin-top: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px rgb(0, 255, 64);
 }
 
 .submit-button-container {
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 15px;
   background-color: rgb(147, 147, 147);
   width: 150px;
@@ -60,4 +70,14 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: solid 2px rgb(255, 174, 0);
+}
+
+.submit-button-container:hover {
+  background-color: #e36d6b;
+  box-shadow: 0px 0px 10px 0px #d5413e;
+}
+
+.submit-button-container:active {
+  background-color: #c35e5c;
 }
