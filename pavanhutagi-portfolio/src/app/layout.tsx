@@ -27,14 +27,17 @@ export default function RootLayout({
       <body className={`${oxanium.className} root-background`}>
         <main className="root-container">
           <section className="content">{children}</section>
+
           <section className="side-bar">
             <div className="side-bar-container">
               <div className="theme-toggle">
                 <ThemeToggle />
               </div>
+
               <div className="nav">
                 <Navigation />
               </div>
+
               <div className="social">
                 <Social />
               </div>

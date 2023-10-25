@@ -1,0 +1,16 @@
+.nav-container {
+  color: #797979;
+  font-size: 30pt;
+  text-align: right;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 50pt;
+}
+
+.nav-active {
+  color: #e36d6b;
+  font-size: 50pt;
+}
