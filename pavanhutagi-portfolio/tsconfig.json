@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["node", "react", "@types/prop-types"]
   },
   "include": [
     "next-env.d.ts",

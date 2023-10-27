@@ -1,16 +1,24 @@
 .nav-container {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-item {
+  cursor: pointer;
   color: #797979;
   font-size: 30pt;
-  text-align: right;
+  transition: transform 0.05s ease-in-out;
+  transform-origin: right;
 }
 
 .nav-item:hover {
   color: #ffffff;
-  cursor: pointer;
-  font-size: 50pt;
+  transform: scale(1.5);
 }
 
 .nav-active {
   color: #e36d6b;
-  font-size: 50pt;
+  transform: scale(1.5);
 }
