@@ -1,15 +1,17 @@
+"use client";
+
 import "./style.css";
 
 export default function Home() {
   return (
     <>
       <div className="home-container">
-        <div className="wireframes-mock">
+        <div className="wireframes-container">
           <div className="box-1"></div>
           <div className="box-2"></div>
           <div className="box-3"></div>
         </div>
-        <div className="short-bio">
+        <div className="bio-container">
           <div className="main-bio">Hi, I am Pavan Hutagi!</div>
           <div className="sub-bio">
             I design & build intuitive and impactful user interfaces.

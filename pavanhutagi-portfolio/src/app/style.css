@@ -11,12 +11,12 @@
 }
 
 .content {
-  flex: 80%;
+  flex: 70%;
   overflow-y: auto;
 }
 
 .side-bar {
-  flex: 20%;
+  flex: 30%;
 }
 
 .side-bar-container {
@@ -29,7 +29,6 @@
   height: 50px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
 }
 
 .nav {
@@ -44,4 +43,79 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .root-background {
+    padding: 10px;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .side-bar {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .root-background {
+    padding: 20px;
+  }
+
+  .content {
+    flex: 60%;
+  }
+
+  .side-bar {
+    flex: 40%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .root-background {
+    padding: 30px;
+  }
+
+  .content {
+    flex: 60%;
+  }
+
+  .side-bar {
+    flex: 40%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .root-background {
+    padding: 40px;
+  }
+
+  .content {
+    flex: 65%;
+  }
+
+  .side-bar {
+    flex: 35%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .root-background {
+    padding: 50px;
+  }
+
+  .content {
+    flex: 70%;
+  }
+
+  .side-bar {
+    flex: 30%;
+  }
 }

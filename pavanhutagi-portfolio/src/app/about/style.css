@@ -25,6 +25,6 @@
 
 .picture {
   width: 350px;
-  height: 400px;
-  border: solid 10px #868686;
+  border: solid 1px rgb(205, 205, 205);
+  border-radius: 0px 50px 0px 50px;
 }

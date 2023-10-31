@@ -4,11 +4,11 @@
   height: 100%;
 }
 
-.wireframes-mock {
+.wireframes-container {
   flex-grow: 1;
 }
 
-.short-bio {
+.bio-container {
   color: #efefef;
 }
 
@@ -41,4 +41,144 @@
   height: 180px;
   margin-left: 250px;
   margin-top: -250px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-bio {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+  .sub-bio {
+    font-size: 20px;
+  }
+
+  .box-1 {
+    background-color: #959595;
+    width: 190px;
+    height: 100px;
+  }
+
+  .box-2 {
+    background-color: #6d6d6d;
+    width: 170px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  .box-3 {
+    background-color: #868686;
+    width: 100px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-bio {
+    font-size: 45px;
+  }
+
+  .sub-bio {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .box-1 {
+    background-color: #959595;
+    width: 280px;
+    height: 150px;
+  }
+
+  .box-2 {
+    background-color: #6d6d6d;
+    width: 200px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: -80px;
+  }
+
+  .box-3 {
+    background-color: #868686;
+    width: 200px;
+    height: 120px;
+    margin-left: 130px;
+    margin-top: -180px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-bio {
+    font-size: 50px;
+  }
+
+  .sub-bio {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .box-1 {
+    background-color: #959595;
+    width: 350px;
+    height: 180px;
+  }
+
+  .box-2 {
+    background-color: #6d6d6d;
+    width: 250px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: -100px;
+  }
+
+  .box-3 {
+    background-color: #868686;
+    width: 250px;
+    height: 130px;
+    margin-left: 200px;
+    margin-top: -200px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-bio {
+    font-size: 50px;
+  }
+
+  .sub-bio {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .box-1 {
+    background-color: #959595;
+    width: 390px;
+    height: 200px;
+  }
+
+  .box-2 {
+    background-color: #6d6d6d;
+    width: 270px;
+    height: 160px;
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  .box-3 {
+    background-color: #868686;
+    width: 330px;
+    height: 180px;
+    margin-left: 250px;
+    margin-top: -250px;
+  }
 }

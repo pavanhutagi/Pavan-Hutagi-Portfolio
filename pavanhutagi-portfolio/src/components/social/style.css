@@ -1,0 +1,84 @@
+.social-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .social-container {
+    gap: 14px;
+  }
+
+  .instagram {
+    width: 45px;
+  }
+
+  .linkedin {
+    width: 45px;
+  }
+
+  .github {
+    width: 45px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .social-container {
+    gap: 16px;
+  }
+
+  .instagram {
+    width: 50px;
+  }
+
+  .linkedin {
+    width: 50px;
+  }
+
+  .github {
+    width: 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .social-container {
+    gap: 18px;
+  }
+
+  .instagram {
+    width: 50px;
+  }
+
+  .linkedin {
+    width: 50px;
+  }
+
+  .github {
+    width: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .social-container {
+    gap: 20px;
+  }
+
+  .instagram {
+    width: 50px;
+  }
+
+  .linkedin {
+    width: 50px;
+  }
+
+  .github {
+    width: 50px;
+  }
+}
