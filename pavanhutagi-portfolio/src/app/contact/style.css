@@ -35,7 +35,7 @@ textarea {
 .text-input-container {
   display: flex;
   gap: 30px;
-  width: 70%;
+  width: 80%;
 }
 
 .name {
@@ -48,7 +48,7 @@ textarea {
 
 .text-area-container {
   margin-top: 30px;
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -73,4 +73,38 @@ textarea {
 
 .submit-button-container:active {
   background-color: #dd807e;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .title-container {
+    font-size: 24pt;
+    margin-bottom: 50px;
+  }
+
+  .text-input-container {
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+  }
+
+  .text-area-container {
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

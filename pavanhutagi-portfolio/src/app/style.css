@@ -67,11 +67,11 @@
   }
 
   .content {
-    flex: 60%;
+    flex: 65%;
   }
 
   .side-bar {
-    flex: 40%;
+    flex: 35%;
   }
 }
 
@@ -82,11 +82,11 @@
   }
 
   .content {
-    flex: 60%;
+    flex: 70%;
   }
 
   .side-bar {
-    flex: 40%;
+    flex: 30%;
   }
 }
 
@@ -97,11 +97,11 @@
   }
 
   .content {
-    flex: 65%;
+    flex: 75%;
   }
 
   .side-bar {
-    flex: 35%;
+    flex: 25%;
   }
 }
 
@@ -112,10 +112,10 @@
   }
 
   .content {
-    flex: 70%;
+    flex: 80%;
   }
 
   .side-bar {
-    flex: 30%;
+    flex: 20%;
   }
 }
