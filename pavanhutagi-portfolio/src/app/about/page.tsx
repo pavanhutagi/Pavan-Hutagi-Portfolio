@@ -2,7 +2,6 @@
 
 import "./style.css";
 import Typewriter from "react-ts-typewriter";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -25,15 +24,7 @@ export default function About() {
         </div>
         <div className="picture-container">
           <div className="picture">
-            <Image
-              src="/images/me.jpeg"
-              width={350}
-              height={400}
-              alt="Instagram"
-              style={{
-                borderRadius: "0px 50px 0px 50px",
-              }}
-            />
+            <img src="/images/me.jpeg" alt="Instagram" />
           </div>
         </div>
       </div>
