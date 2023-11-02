@@ -4,6 +4,7 @@ import "./style.css";
 import ThemeToggle from "@/components/theme-toggle/theme-toggle";
 import Social from "@/components/social/social";
 import Navigation from "@/components/navigation/navigation";
+import MobileMenu from "@/components/mobile-menu/mobile-menu";
 
 import { Oxanium } from "next/font/google";
 
@@ -26,6 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${oxanium.className} root-background`}>
         <main className="root-container">
+          <section className="mobile-menu">
+            <MobileMenu />
+          </section>
+
           <section className="content">{children}</section>
 
           <section className="side-bar">

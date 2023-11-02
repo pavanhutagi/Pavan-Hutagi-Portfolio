@@ -11,6 +11,7 @@ export default function Home() {
           <div className="box-2"></div>
           <div className="box-3"></div>
         </div>
+
         <div className="bio-container">
           <div className="main-bio">Hi, I am Pavan Hutagi!</div>
           <div className="sub-bio">

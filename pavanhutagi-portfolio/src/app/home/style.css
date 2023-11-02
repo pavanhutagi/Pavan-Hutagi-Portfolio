@@ -45,6 +45,36 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .main-bio {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+
+  .sub-bio {
+    font-size: 25px;
+  }
+
+  .box-1 {
+    background-color: #959595;
+    width: 230px;
+    height: 120px;
+  }
+
+  .box-2 {
+    background-color: #6d6d6d;
+    width: 180px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+
+  .box-3 {
+    background-color: #868686;
+    width: 120px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

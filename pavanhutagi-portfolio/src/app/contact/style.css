@@ -77,6 +77,45 @@ textarea {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .title-container {
+    font-size: 16pt;
+    margin-bottom: 20px;
+  }
+
+  .text-input-container {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .text-area-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .submit-button-container {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 13pt;
+  }
+
+  input {
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  textarea {
+    font-size: 20px;
+    padding: 10px;
+    height: 225px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

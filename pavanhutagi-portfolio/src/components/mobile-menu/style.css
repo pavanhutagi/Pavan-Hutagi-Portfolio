@@ -1,0 +1,31 @@
+.mobile-menu-container {
+  height: 70px;
+  width: 100%;
+  background-color: #777d92;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.menu-bar {
+  width: 35px;
+  height: 4px;
+  background-color: #cfcfcf;
+  margin: 6px 0;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+  .menu-bar {
+    background-color: #e36d6b;
+  }
+}
