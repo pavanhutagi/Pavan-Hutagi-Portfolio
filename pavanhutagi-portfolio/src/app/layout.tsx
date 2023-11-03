@@ -6,7 +6,10 @@ import Social from "@/components/social/social";
 import Navigation from "@/components/navigation/navigation";
 import MobileMenu from "@/components/mobile-menu/mobile-menu";
 
+import Image from "next/image";
+
 import { Oxanium } from "next/font/google";
+import LineParticles from "@/components/line-particles/line-particles";
 
 const oxanium = Oxanium({
   subsets: ["latin"],
@@ -25,30 +28,38 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${oxanium.className} root-background`}>
-        <main className="root-container">
-          <section className="mobile-menu">
-            <MobileMenu />
-          </section>
+      <body className={`${oxanium.className}`}>
+        <div className="particles-container">
+          <LineParticles />
+        </div>
 
-          <section className="content">{children}</section>
+        <div className="root-background">
+          <main className="root-container">
+            <section className="mobile-menu">
+              <MobileMenu />
+            </section>
 
-          <section className="side-bar">
-            <div className="side-bar-container">
-              <div className="theme-toggle">
-                <ThemeToggle />
+            <section className="content">
+              <div className="page-container">{children}</div>
+            </section>
+
+            <section className="side-bar">
+              <div className="side-bar-container">
+                <div className="theme-toggle">
+                  <ThemeToggle />
+                </div>
+
+                <div className="nav">
+                  <Navigation />
+                </div>
+
+                <div className="social">
+                  <Social />
+                </div>
               </div>
-
-              <div className="nav">
-                <Navigation />
-              </div>
-
-              <div className="social">
-                <Social />
-              </div>
-            </div>
-          </section>
-        </main>
+            </section>
+          </main>
+        </div>
       </body>
     </html>
   );
