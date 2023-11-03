@@ -6,8 +6,6 @@ import Social from "@/components/social/social";
 import Navigation from "@/components/navigation/navigation";
 import MobileMenu from "@/components/mobile-menu/mobile-menu";
 
-import Image from "next/image";
-
 import { Oxanium } from "next/font/google";
 import LineParticles from "@/components/line-particles/line-particles";
 
