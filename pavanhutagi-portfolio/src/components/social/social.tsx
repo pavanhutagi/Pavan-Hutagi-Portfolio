@@ -5,13 +5,13 @@ export default function Social() {
   return (
     <>
       <div className="social-container">
-        <div className="instagram">
-          <a href="https://www.instagram.com/pavan_hutagi/" target="_blank">
+        <div className="github">
+          <a href="https://www.github.com/pavanhutagi" target="_blank">
             <Image
-              src="/images/instagram.png"
+              src="/images/github.png"
               width={50}
               height={50}
-              alt="Instagram"
+              alt="GitHub"
             />
           </a>
         </div>
@@ -25,13 +25,13 @@ export default function Social() {
             />
           </a>
         </div>
-        <div className="github">
-          <a href="https://www.github.com/pavanhutagi" target="_blank">
+        <div className="instagram">
+          <a href="https://www.instagram.com/pavan_hutagi/" target="_blank">
             <Image
-              src="/images/github.png"
+              src="/images/instagram.png"
               width={50}
               height={50}
-              alt="GitHub"
+              alt="Instagram"
             />
           </a>
         </div>
