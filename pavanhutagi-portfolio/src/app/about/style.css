@@ -12,10 +12,6 @@
   color: white;
 }
 
-.picture-container {
-  display: flex;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .about-container {
@@ -24,25 +20,11 @@
   }
 
   .text-container {
-    order: 2;
     margin-top: 20px;
   }
 
   .text {
     font-size: 12pt;
-  }
-
-  .picture-container {
-    order: 1;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .picture img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }
 
@@ -54,25 +36,11 @@
   }
 
   .text-container {
-    order: 2;
     margin-top: 20px;
   }
 
   .text {
     font-size: 14pt;
-  }
-
-  .picture-container {
-    order: 1;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .picture img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }
 
@@ -84,26 +52,11 @@
   }
 
   .text-container {
-    order: 2;
     margin-top: 20px;
   }
 
   .text {
     font-size: 14pt;
-  }
-
-  .picture-container {
-    order: 1;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0px;
-  }
-
-  .picture img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }
 
@@ -115,27 +68,11 @@
   }
 
   .text-container {
-    order: 1;
-    margin-top: 0px;
-    width: 70%;
     align-items: center;
   }
 
   .text {
     font-size: 16pt;
-  }
-
-  .picture-container {
-    order: 2;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .picture img {
-    width: 400px;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }
 
@@ -147,30 +84,10 @@
   }
 
   .text-container {
-    order: 2;
-    margin-top: 0px;
-    width: 70%;
     align-items: center;
   }
 
   .text {
     font-size: 18pt;
-    margin-left: 30px;
-  }
-
-  .picture-container {
-    order: 1;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .picture {
-    height: 100%;
-  }
-
-  .picture img {
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
   }
 }

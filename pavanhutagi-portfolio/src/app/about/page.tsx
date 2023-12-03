@@ -7,12 +7,6 @@ export default function About() {
   return (
     <>
       <div className="about-container">
-        <div className="picture-container">
-          <div className="picture">
-            <img src="/images/me2.png" alt="Instagram" />
-          </div>
-        </div>
-
         <div className="text-container">
           <div className="text">
             <Typewriter
